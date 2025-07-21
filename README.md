@@ -38,7 +38,9 @@ HTML + Jinja2 for frontend
 ├── autocorrect book.txt       # Text corpus used to train the word model
 ├── templates/
 │   └── index.html             # Frontend template
+├── static/                    # (optional) for custom CSS/JS
 ├── README.md                  # This file
+
 
 ---
 
