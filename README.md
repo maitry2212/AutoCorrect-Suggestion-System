@@ -1,4 +1,4 @@
-# 🔤 AutoCorrect Suggestion Web App
+# 🔤 AutoCorrect Suggestion System
 
 A simple web application built with Flask that provides word suggestions based on user input using Jaccard similarity and word probabilities from a text corpus.
 
@@ -35,10 +35,14 @@ HTML + Jinja2 for frontend
 ## 📁 File Structure
 .
 ├── app.py                      # Main Flask application
+
 ├── autocorrect book.txt       # Text corpus used to train the word model
+
 ├── templates/
 │   └── index.html             # Frontend template
+
 ├── static/                    # (optional) for custom CSS/JS
+
 ├── README.md                  # This file
 
 
